@@ -1,6 +1,6 @@
+import { useLocation } from 'react-router-dom';
 import NavigateButton from '../components/common/NavigateButton';
 import { css } from '@emotion/react';
-import { useLocation } from 'react-router-dom';
 
 const CompleteSubmitFormPage = () => {
   const location = useLocation();
