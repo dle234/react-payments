@@ -17,7 +17,7 @@ const useShow = <T extends object>({ valueInit, error, showInit, blur }: UseShow
       if (isValue() && allErrorsEmpty && blur) {
         setPass(true);
         return;
-      } //TODO: 여기 리팩토링해야함
+      }
 
       setPass(false);
       return;
