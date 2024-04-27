@@ -252,4 +252,4 @@ Error generating stack: `+o.message+`
   font-weight: 700;
   line-height: 36.2px;
   text-align: center;
-`;function ig(){return R(ro,{children:R(K0,{children:ve(G0,{children:[R(ru,{path:"/",element:R(q0,{})}),R(ru,{path:"/complete",element:R(rg,{})})]})})})}si.createRoot(document.getElementById("root")).render(R(Xs.StrictMode,{children:R(ig,{})}));
+`;function ig(){return R(ro,{children:R(K0,{basename:"/react-payments/dist/",children:ve(G0,{children:[R(ru,{path:"/",element:R(q0,{})}),R(ru,{path:"/complete",element:R(rg,{})})]})})})}si.createRoot(document.getElementById("root")).render(R(Xs.StrictMode,{children:R(ig,{})}));
