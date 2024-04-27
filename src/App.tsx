@@ -6,7 +6,7 @@ import { Routes, Route, BrowserRouter } from 'react-router-dom';
 function App() {
   return (
     <>
-      <BrowserRouter basename="/react-payments/dist">
+      <BrowserRouter basename="/react-payments/dist/">
         <Routes>
           <Route path="/" element={<CardInformationInputPage />}></Route>
           <Route path="/complete" element={<CompleteSubmitFormPage />}></Route>
